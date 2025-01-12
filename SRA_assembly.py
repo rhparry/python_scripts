@@ -1,4 +1,6 @@
-#Rhys Parry r.parry@uq.edu.au Assembly python script for use with UQ HPC. It downloads SRA files to the $TMPDIR generates fastq files and then uses the outputs for MEGAHIT. Requires a accessions file, sra-tools and megahit in the environment. 
+#SRA_assembly.py Assembly python script for use with UQ HPC. Downloads SRA files to the $TMPDIR generates fastq files, and then uses the outputs for MEGAHIT. Requires an accessions file, sra-tools and megahit in the environment. 
+#v0.1 Rhys Parry r.parry@uq.edu.au
+#Usage python SRA_assembly.py
 import os
 import subprocess
 import shutil
